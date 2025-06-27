@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ketan Kumar R. Shah - Notary Lawyer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="language-selector">
+    <select id="languageSelect">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="gu">ગુજરાતી</option>
+    </select>
+  </div>
+
+  <header>
+    <h1 id="name"></h1>
+    <p id="title"></p>
+    <div class="profile-photo">
+      <img src="profile-photo.jpg" alt="Ketan Kumar R. Shah" />
+    </div>
+  </header>
+
+  <section>
+    <div class="dropdown">
+      <button onclick="toggleDropdown('legalList')">
+        <h2 id="legalHeading"></h2>
+      </button>
+      <ul id="legalList" class="dropdown-list hidden"></ul>
+    </div>
+
+    <div class="dropdown">
+      <button onclick="toggleDropdown('otherList')">
+        <h2 id="otherHeading"></h2>
+      </button>
+      <ul id="otherList" class="dropdown-list hidden"></ul>
+    </div>
+
+    <div class="dropdown">
+      <button onclick="toggleDropdown('contactSection')">
+        <h2 id="contactHeading"></h2>
+      </button>
+     
+
+    <div id="contactSection" class="dropdown-list hidden">
+      <p>📞 +91 94270 67407</p>
+      <p>📧 ketanshah.adv@gmail.com</p>
+      <p>💬 WhatsApp: <a href="https://wa.me/919427067407" target="_blank">+91 94270 67407</a></p>
+      <p>✉️ Text: +91 94270 67407</p>
+      <p id="address"></p>
+    </div>
+    
+
+
+
+  </section>
+
+  <footer>
+    &copy; 2025 Ketan Kumar R. Shah – Advocate & Notary
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
